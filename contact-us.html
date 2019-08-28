@@ -65,19 +65,17 @@
             <div class="row">
                 <div class="col-sm-6 offset-sm-3">
                     <form action="add-new-offer.html">
-                        <h1 class="text-center form-title"></h1>تواصل معنا</h1>
+                        <h1 class="text-center form-title">تواصل معنا</h1>
                         <div class="input-group">
-                            <input type="text" placeholder="اسم العرض" id="offer-name" name="offer-name">
-                            <textarea name="offer-short-description" id="offer-short-description" placeholder="وصف مختصر"></textarea>
-                            <input type="text" placeholder="سعر العرض" id="offer-price" name="offer-price">
+                            <input type="text" placeholder="الاسم" id="offer-name" name="offer-name">
+                            <input type="text" placeholder="البريد" id="email" name="email">
+                            <input type="text" placeholder="الجوال" id="phone" name="phone">
+                            <textarea name="msg" id="msg" placeholder="ما هي رسالتك"></textarea>
                         </div>
-                        <div class="input-group d-flex date">
-                            <div>
-                                <input class="from" placeholder="من" />
-                            </div>
-                            <div>
-                                <input class="to" placeholder="الى" />
-                            </div>
+                        <div class="input-group d-flex justify-content-between">
+                            <label class="d-flex flex-row"><span>شكوى</span> <input class="w-auto ml-2" type="radio" name="msg-type"></label>
+                            <label class="d-flex flex-row"><span>شكوى</span> <input class="w-auto ml-2" type="radio" name="msg-type"></label>
+                            <label class="d-flex flex-row"><span>شكوى</span> <input class="w-auto ml-2" type="radio" name="msg-type"></label>
                         </div>
                         <a href="#" class="add-new-link">اضافة</a>
                     </form>

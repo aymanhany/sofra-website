@@ -661,3 +661,11 @@ textarea {
     border: 1px solid #fff;
     margin-left: 10px;
 }
+
+.add-new-section.contact-us form {
+    background: #a10a4a;
+}
+
+.add-new-section.contact-us form h1 {
+    color: #fff;
+}
